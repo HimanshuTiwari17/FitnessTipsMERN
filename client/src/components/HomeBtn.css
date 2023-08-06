@@ -1,0 +1,13 @@
+#home-btn {
+  width: 8%;
+  position: absolute;
+  left: 1.5%;
+  top: 3%;
+  background-color: #1976d2;
+  padding: 6px;
+  border-radius: 10px;
+}
+#btn-text {
+  color: white;
+  text-decoration: none;
+}
