@@ -10,6 +10,7 @@ import {
   styled,
   Button,
 } from "@mui/material";
+import ArrowBackIcon from "@material-ui/icons/ArrowBack";
 import { addUser } from "../service/api.js";
 import "./HomeBtn.css";
 //import { NavLink } from "react-router-dom";
@@ -40,11 +41,16 @@ const AddUser = () => {
     navigate("/all");
   };
 
+  const iconStyle = {
+    color: "white", // Set the color to white
+    // Add any other custom styles if needed
+  };
+
   return (
     <Container>
       <button id="home-btn">
         <NavLink id="btn-text" to="/">
-          Home
+          <ArrowBackIcon style={iconStyle} />
         </NavLink>
       </button>
       <Typography variant="h4">Add Tip</Typography>
